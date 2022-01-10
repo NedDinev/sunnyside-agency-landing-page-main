@@ -67,6 +67,75 @@ header {
     width: 30px;
   }
 }
+main {
+  article {
+    .egg-img {
+      background-image: url(./images/desktop/image-transform.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      background-position: center;
+    }
+    height: 600px;
+    .text-box {
+      padding: 140px 120px;
+      h2 {
+        font-weight: 800;
+      }
+      p {
+        margin: 30px 0;
+      }
+      .link-1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $Very-dark-desaturated;
+        text-decoration: underline rgb(246, 244, 196) 5px;
+      }
+    }
+  }
+  article {
+    .glass-img {
+      background-image: url(./images/desktop/image-stand-out.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      background-position: center;
+    }
+    .link-2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $Very-dark-desaturated;
+      text-decoration: underline rgb(246, 196, 196) 5px;
+    }
+  }
+  article {
+    .cherry-img {
+      background-image: url(./images/desktop/image-graphic-design.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      background-position: center;
+      text-align: center;
+      padding: 380px 160px 0 160px;
+      color: $Dark-desaturated-cyan;
+    }
+    .orange-img {
+      background-image: url(./images/desktop/image-photography.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      background-position: center;
+      text-align: center;
+      padding: 380px 160px 0 160px;
+      color: $Dark-blue;
+    }
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
