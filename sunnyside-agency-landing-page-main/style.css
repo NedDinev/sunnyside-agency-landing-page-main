@@ -33,8 +33,8 @@ header nav ul li {
 }
 
 header nav ul li .contact {
-  background-color: white;
-  border: 1px solid white;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 25px;
   color: #23303e;
   padding: 10px 15px;
@@ -42,7 +42,7 @@ header nav ul li .contact {
 }
 
 header nav ul li a {
-  color: white;
+  color: #ffffff;
 }
 
 header nav ul li a:hover {
@@ -55,7 +55,7 @@ header h1 {
   font-weight: 900;
   font-size: 50px;
   letter-spacing: 10px;
-  color: white;
+  color: #ffffff;
 }
 
 header .arrow-down {
@@ -86,6 +86,7 @@ main article .text-box h2 {
 }
 
 main article .text-box p {
+  color: #5a636c;
   margin: 30px 0;
 }
 
@@ -121,7 +122,6 @@ main article .cherry-img {
   width: 100%;
   height: auto;
   background-position: center;
-  text-align: center;
   padding: 380px 160px 0 160px;
   color: #25564b;
 }
@@ -133,9 +133,82 @@ main article .orange-img {
   width: 100%;
   height: auto;
   background-position: center;
-  text-align: center;
   padding: 380px 160px 0 160px;
   color: #19536b;
+}
+
+main .testimonials h1 {
+  color: #818498;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+main .testimonials .testimonial-boxes {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 50px;
+}
+
+main .testimonials .testimonial-boxes div {
+  padding: 0 50px;
+  margin-bottom: 120px;
+}
+
+main .testimonials .testimonial-boxes div img {
+  width: 65px;
+  margin-bottom: 50px;
+}
+
+main .testimonials .testimonial-boxes div p {
+  margin-bottom: 40px;
+}
+
+main .testimonials .testimonial-boxes div h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main .testimonials .testimonial-boxes div h4 {
+  color: #a7abae;
+  font-size: 14px;
+}
+
+main .pictures-section img {
+  padding: 0;
+}
+
+footer {
+  background-color: #90d4c5;
+}
+
+footer div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div img {
+  -webkit-filter: invert(29%) sepia(6%) saturate(3270%) hue-rotate(116deg) brightness(50%) contrast(90%);
+          filter: invert(29%) sepia(6%) saturate(3270%) hue-rotate(116deg) brightness(50%) contrast(90%);
+}
+
+footer div ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+footer div ul li {
+  padding-left: 5px;
+  display: inline-block;
 }
 
 .attribution {
