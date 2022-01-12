@@ -198,6 +198,7 @@ footer div div {
 footer div img {
   -webkit-filter: invert(29%) sepia(6%) saturate(3270%) hue-rotate(116deg) brightness(50%) contrast(90%);
           filter: invert(29%) sepia(6%) saturate(3270%) hue-rotate(116deg) brightness(50%) contrast(90%);
+  margin: 40px 0;
 }
 
 footer div ul {
@@ -207,8 +208,12 @@ footer div ul {
 }
 
 footer div ul li {
-  padding-left: 5px;
+  padding: 0 35px;
   display: inline-block;
+}
+
+footer div ul li a:hover {
+  text-decoration: none;
 }
 
 .attribution {
