@@ -37,8 +37,13 @@ header nav ul li .contact {
   border: 1px solid #ffffff;
   border-radius: 25px;
   color: #23303e;
-  padding: 10px 15px;
+  padding: 15px 20px;
   font-weight: 600;
+}
+
+header nav ul li .contact:hover {
+  background-color: #6fcfff;
+  border-color: transparent;
 }
 
 header nav ul li a {
@@ -47,11 +52,12 @@ header nav ul li a {
 
 header nav ul li a:hover {
   text-decoration: none;
+  color: #ffffff;
 }
 
 header h1 {
-  margin-top: 100px;
-  margin-bottom: 130px;
+  margin-top: 150px;
+  margin-bottom: 80px;
   font-weight: 900;
   font-size: 50px;
   letter-spacing: 10px;
@@ -61,7 +67,7 @@ header h1 {
 header .arrow-down {
   display: block;
   margin: auto;
-  width: 30px;
+  width: 35px;
 }
 
 main article {
@@ -98,6 +104,11 @@ main article .text-box .link-1 {
           text-decoration: underline #f6f4c4 5px;
 }
 
+main article .text-box .link-1:hover {
+  -webkit-text-decoration: underline #fdd100 5px;
+          text-decoration: underline #fdd100 5px;
+}
+
 main article .glass-img {
   background-image: url(./images/desktop/image-stand-out.jpg);
   background-repeat: no-repeat;
@@ -113,6 +124,11 @@ main article .link-2 {
   color: #23303e;
   -webkit-text-decoration: underline #f6c4c4 5px;
           text-decoration: underline #f6c4c4 5px;
+}
+
+main article .link-2:hover {
+  -webkit-text-decoration: underline #fe7769 5px;
+          text-decoration: underline #fe7769 5px;
 }
 
 main article .cherry-img {
@@ -165,7 +181,7 @@ main .testimonials .testimonial-boxes div img {
 }
 
 main .testimonials .testimonial-boxes div p {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 main .testimonials .testimonial-boxes div h3 {
@@ -201,19 +217,44 @@ footer div img {
   margin: 40px 0;
 }
 
-footer div ul {
+footer div .menu {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+footer div .menu li {
+  padding: 0 35px;
+  display: inline-block;
+}
+
+footer div .menu li a {
+  color: #458c7e;
+}
+
+footer div .menu li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer div .social {
   list-style: none;
   text-align: center;
   padding: 0;
 }
 
-footer div ul li {
-  padding: 0 35px;
+footer div .social li {
   display: inline-block;
+  padding: 0 15px;
 }
 
-footer div ul li a:hover {
-  text-decoration: none;
+footer div .social li a {
+  color: #25564b;
+}
+
+footer div .social li a:hover {
+  color: #ffffff;
 }
 
 .attribution {
