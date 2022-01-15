@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1500px) {
+  main article .cherry-img {
+    padding: 380px 100px 0 100px;
+  }
+  main article .orange-img {
+    padding: 380px 100px 0 100px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  main article .cherry-img {
+    padding: 380px 40px 0 40px;
+  }
+  main article .orange-img {
+    padding: 380px 40px 0 40px;
+  }
+  main article .text-box {
+    padding: 120px 80px;
+  }
+  main .testimonials .testimonial-boxes div {
+    padding: 0px 18px;
+    margin-bottom: 120px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .desktop-nav {
+    display: none;
+  }
+}

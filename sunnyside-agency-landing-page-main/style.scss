@@ -31,31 +31,36 @@ header {
     .logo {
       float: left;
     }
-    ul {
-      float: right;
-      li {
-        .contact {
-          background-color: $White;
-          border: 1px solid $White;
-          border-radius: 25px;
-          color: $Very-dark-desaturated;
-          padding: 15px 20px;
-          font-weight: 600;
-        }
-        .contact:hover {
-          background-color: #6fcfff;
-          border-color: transparent;
-        }
-        display: inline-block;
-        padding: 0 20px;
-        a {
-          color: $White;
-        }
-        a:hover {
-          text-decoration: none;
-          color: $White;
+    .desktop-nav {
+      ul {
+        float: right;
+        li {
+          .contact {
+            background-color: $White;
+            border: 1px solid $White;
+            border-radius: 25px;
+            color: $Very-dark-desaturated;
+            padding: 15px 20px;
+            font-weight: 600;
+          }
+          .contact:hover {
+            background-color: #6fcfff;
+            border-color: transparent;
+          }
+          display: inline-block;
+          padding: 0 20px;
+          a {
+            color: $White;
+          }
+          a:hover {
+            text-decoration: none;
+            color: $White;
+          }
         }
       }
+    }
+    .mobile-nav {
+      display: none;
     }
   }
   h1 {

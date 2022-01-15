@@ -19,6 +19,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,13 +27,26 @@
   <body>
     <header>
       <nav>
+        
         <img src="./images/logo.svg" alt="logo" class="logo" />
+        <div class="desktop-nav">
         <ul>
           <li><a href="">About</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Projects</a></li>
           <li><a class="contact" href="">CONTACT</a></li>
         </ul>
+      </div>
+      <div class="mobile-nav">
+      <img src="./images/icon-hamburger.svg" class="nav-icon" alt="menu">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a class="contact" href="">CONTACT</a></li>
+        </ul>
+      </div>
+      
       </nav>
       <h1 class="text-center">WE ARE CREATIVES</h1>
       <img
