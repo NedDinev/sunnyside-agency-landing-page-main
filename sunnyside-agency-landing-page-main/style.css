@@ -3,6 +3,8 @@
 body {
   font-family: "Fraunces", "Barlow", serif, sans-serif;
   font-size: 18px;
+  padding: 0;
+  margin: 0%;
 }
 
 header {
@@ -10,7 +12,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
   height: 720px;
   padding: 40px 30px 0 30px;
 }
@@ -47,6 +48,7 @@ header nav .desktop-nav ul li .contact:hover {
 }
 
 header nav .desktop-nav ul li a {
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -60,6 +62,7 @@ header nav .mobile-nav {
 }
 
 header h1 {
+  text-align: center;
   margin-top: 150px;
   margin-bottom: 80px;
   font-weight: 900;
@@ -74,21 +77,35 @@ header .arrow-down {
   width: 35px;
 }
 
+main {
+  width: 100%;
+}
+
 main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 600px;
+  width: 100%;
 }
 
 main article .egg-img {
   background-image: url(./images/desktop/image-transform.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 50%;
   height: auto;
   background-position: center;
+  padding: 150px 120px;
 }
 
 main article .text-box {
-  padding: 140px 120px;
+  width: 50%;
+  padding: 150px 120px;
 }
 
 main article .text-box h2 {
@@ -97,7 +114,6 @@ main article .text-box h2 {
 
 main article .text-box p {
   color: #5a636c;
-  margin: 30px 0;
 }
 
 main article .text-box .link-1 {
@@ -117,9 +133,10 @@ main article .glass-img {
   background-image: url(./images/desktop/image-stand-out.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 50%;
   height: auto;
   background-position: center;
+  padding: 150px 120px;
 }
 
 main article .link-2 {
@@ -139,9 +156,10 @@ main article .cherry-img {
   background-image: url(./images/desktop/image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 50%;
   height: auto;
   background-position: center;
+  text-align: center;
   padding: 380px 160px 0 160px;
   color: #25564b;
 }
@@ -150,9 +168,10 @@ main article .orange-img {
   background-image: url(./images/desktop/image-photography.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 50%;
   height: auto;
   background-position: center;
+  text-align: center;
   padding: 380px 160px 0 160px;
   color: #19536b;
 }
@@ -165,9 +184,18 @@ main .testimonials h1 {
   margin-top: 120px;
   margin-bottom: 80px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 main .testimonials .testimonial-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -182,6 +210,7 @@ main .testimonials .testimonial-boxes div {
 main .testimonials .testimonial-boxes div img {
   width: 65px;
   margin-bottom: 50px;
+  border-radius: 50%;
 }
 
 main .testimonials .testimonial-boxes div p {
@@ -198,7 +227,14 @@ main .testimonials .testimonial-boxes div h4 {
   font-size: 14px;
 }
 
+main .pictures-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 main .pictures-section img {
+  width: 25%;
   padding: 0;
 }
 
@@ -234,6 +270,7 @@ footer div .menu li {
 }
 
 footer div .menu li a {
+  text-decoration: none;
   color: #458c7e;
 }
 
