@@ -25,4 +25,28 @@
   .desktop-nav {
     display: none;
   }
+
+  main article {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  main article .text-box {
+    width: 100%;
+    padding: 0;
+  }
+  main article .text-box p {
+    width: 500px;
+  }
+  main article .text-box h2,
+  p,
+  a {
+    margin-left: 15%;
+  }
+
+  main article .egg-img {
+    width: 100%;
+    padding: 205px 0;
+  }
 }
