@@ -28,25 +28,118 @@
 
   main article {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
+  }
+  main article:first-child {
+    flex-direction: column-reverse;
   }
 
   main article .text-box {
     width: 100%;
     padding: 0;
+    text-align: center;
+    margin: 50px 0;
   }
   main article .text-box p {
-    width: 500px;
-  }
-  main article .text-box h2,
-  p,
-  a {
-    margin-left: 15%;
+    margin: 0 30px;
   }
 
   main article .egg-img {
+    background-image: url(./images/mobile/image-transform.jpg);
     width: 100%;
-    padding: 205px 0;
+    padding: 0;
+    height: 500px;
+  }
+  main article .glass-img {
+    background-image: url(./images/mobile/image-stand-out.jpg);
+    width: 100%;
+    padding: 0;
+    height: 500px;
+  }
+  header nav .mobile-nav {
+    display: block;
+    float: right;
+  }
+  header nav .mobile-nav .triangle {
+    display: block;
+    position: absolute;
+    top: 69px;
+    right: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 60px 66.6px 11px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+  header nav .mobile-nav button {
+    background: transparent;
+    border: none;
+  }
+  header nav .mobile-nav button .nav-icon {
+    display: block;
+    width: 20px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    top: 47px;
+    right: 25px;
+  }
+  header nav .mobile-nav ul {
+    width: 250px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    background-color: #ffffff;
+  }
+  header nav .mobile-nav ul li {
+    margin: 15px 0;
+  }
+  header nav .mobile-nav ul li a {
+    text-decoration: none;
+    color: #818498;
+    padding: 0;
+    margin: 0;
+  }
+  header nav .mobile-nav ul .contact-mobile-li {
+    margin: 30px 0;
+  }
+  header nav .mobile-nav ul li .contact-mobile {
+    background-color: #fad400;
+    padding: 12px;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 14px;
+  }
+  main article .cherry-img {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  main article .cherry-img h3 {
+    margin-top: 200px;
+  }
+  main article .cherry-img p {
+    margin: 15px 30px;
+  }
+  main article .orange-img {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  main article .orange-img h3 {
+    margin-top: 200px;
+  }
+  main article .orange-img p {
+    margin: 15px 30px;
+  }
+  main .testimonials .testimonial-boxes {
+    flex-direction: column;
   }
 }
