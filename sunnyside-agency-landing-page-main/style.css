@@ -57,6 +57,10 @@ header nav .desktop-nav ul li a:hover {
   color: #ffffff;
 }
 
+header nav button {
+  display: none;
+}
+
 header nav .mobile-nav {
   display: none;
 }
@@ -237,9 +241,18 @@ main .pictures-section {
   display: flex;
 }
 
-main .pictures-section img {
+main .pictures-section .img-container-1,
+main .pictures-section .img-container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
-  padding: 0;
+}
+
+main .pictures-section .img-container-1 img,
+main .pictures-section .img-container-2 img {
+  width: 100%;
+  padding-right: 100%;
 }
 
 footer {
@@ -269,11 +282,11 @@ footer div .menu {
 }
 
 footer div .menu li {
-  padding: 0 35px;
   display: inline-block;
 }
 
 footer div .menu li a {
+  padding: 0 30px;
   text-decoration: none;
   color: #458c7e;
 }

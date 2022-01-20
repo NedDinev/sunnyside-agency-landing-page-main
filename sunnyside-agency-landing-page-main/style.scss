@@ -63,7 +63,9 @@ header {
         }
       }
     }
-
+    button {
+      display: none;
+    }
     .mobile-nav {
       .triangle {
         display: none;
@@ -208,9 +210,14 @@ main {
   }
   .pictures-section {
     display: flex;
-    img {
+    .img-container-1,
+    .img-container-2 {
+      display: flex;
       width: 25%;
-      padding: 0;
+      img {
+        width: 100%;
+        padding-right: 100%;
+      }
     }
   }
 }
@@ -232,9 +239,9 @@ footer {
       padding: 0;
       margin-bottom: 50px;
       li {
-        padding: 0 35px;
         display: inline-block;
         a {
+          padding: 0 30px;
           text-decoration: none;
           color: $Dark-moderate-cyan;
         }
