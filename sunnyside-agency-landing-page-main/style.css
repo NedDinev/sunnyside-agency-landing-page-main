@@ -255,6 +255,11 @@ main .pictures-section .img-container-2 img {
   padding-right: 100%;
 }
 
+main .pictures-section .img-container-1 img[alt~="sugarcubes"],
+main .pictures-section .img-container-2 img[alt~="sugarcubes"] {
+  padding-right: 0;
+}
+
 footer {
   background-color: #90d4c5;
 }
